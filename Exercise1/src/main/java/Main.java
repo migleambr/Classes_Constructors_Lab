@@ -5,6 +5,9 @@ public class Main {
         Circle circle1 = new Circle(5.5);
         System.out.println(circle1.getCircumference());
 
+        circle1.setRadius(2.5);
+        System.out.println(circle1.getCircumference());
+
     }
 
 }

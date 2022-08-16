@@ -12,4 +12,8 @@ public class Circle {
         return this.radius * 2 * Math.PI;
     }
 
+    void setRadius(Double radius) {
+        this.radius = radius;
+    }
+
 }
