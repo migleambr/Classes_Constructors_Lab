@@ -13,5 +13,14 @@ public class Customer {
         this.lastName = newLastName;
         this.heldMoney = newHeldMoney;
     }
-    
+
+    // identifying methods
+    String getFullName() {
+        return this.firstName + " " + this.lastName;
+    }
+
+    void subtractMoneyHeld(Double heldMoney) {
+        this.heldMoney = heldMoney;
+    }
+
 }

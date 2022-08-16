@@ -17,6 +17,12 @@ public class Main {
         System.out.println(rectangle1.getArea());
         System.out.println(rectangle1.getDiagonal());
 
+        System.out.println("-----");
+
+        Customer customer1 = new Customer(1, "Migle", "Ambrazeviciute", 1000.0);
+        System.out.println(customer1.getFullName());
+        customer1.subtractMoneyHeld(300.0);
+
     }
 
 }
