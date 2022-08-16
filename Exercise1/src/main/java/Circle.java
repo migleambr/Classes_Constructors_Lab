@@ -3,6 +3,7 @@ public class Circle {
     // identifying properties
     Double radius;
 
+    // constructor
     public Circle(Double newRadius) {
         this.radius = newRadius;
     }
