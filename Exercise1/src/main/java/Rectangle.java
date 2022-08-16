@@ -23,6 +23,4 @@ public class Rectangle {
         return Math.sqrt(Math.pow(this.length, 2) + Math.pow(this.width, 2));
     }
 
-
-
 }
